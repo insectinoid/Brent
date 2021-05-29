@@ -11,7 +11,7 @@ document.body.onload = function(){
 
     element.addEventListener("click", function(){
       element.classList.toggle("btn-primary");
-      element.classList.toggle("btn-dark");
+      element.classList.toggle("btn-success");
     });
 
     document.getElementById("submitRecept").addEventListener("click", function(){
